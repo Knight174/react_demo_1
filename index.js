@@ -6,11 +6,15 @@
 // https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html#updates-to-client-rendering-apis
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
-// JSX
-const page = (
-  <div>
-    <h1>Hello, JSX!</h1>
-    <p>This is a paragraph.</p>
-  </div>
+const navbar = (
+  <nav>
+    <h1>Eric</h1>
+    <ul>
+      <li>Menu</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
 )
-root.render(page)
+
+root.render(navbar)
