@@ -7,18 +7,10 @@
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 // JSX
-const element = <h1 className="header">Hello, React!</h1>
-console.log(element)
-// {
-//     "type": "h1",
-//     "key": null,
-//     "ref": null,
-//     "props": {
-//         "className": "header",
-//         "children": "Hello, React!"
-//     },
-//     "_owner": null,
-//     "_store": {}
-// }
-
-root.render(element)
+const page = (
+  <div>
+    <h1>Hello, JSX!</h1>
+    <p>This is a paragraph.</p>
+  </div>
+)
+root.render(page)
