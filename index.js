@@ -6,15 +6,18 @@
 // https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html#updates-to-client-rendering-apis
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
-const navbar = (
-  <nav>
-    <h1>Eric</h1>
+const page = (
+  <div>
+    <img src="./logo192.png" alt="" width="40px" />
+    <h1>Fun facts about React</h1>
     <ul>
-      <li>Menu</li>
-      <li>About</li>
-      <li>Contact</li>
+      <li>Was first released in 2013</li>
+      <li>Was originally created by Jordan Walke</li>
+      <li>Has well over 100K stars on GitHub</li>
+      <li>Is maintained by Facebook</li>
+      <li>Powers thousands of enterprise apps, including mobile apps</li>
     </ul>
-  </nav>
+  </div>
 )
 
-root.render(navbar)
+root.render(page)
