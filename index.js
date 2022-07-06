@@ -9,7 +9,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 function Page() {
   return (
     <div>
-      <img src="./logo192.png" alt="" width="40px" />
+      <header>
+        <nav>
+          <img src="./logo192.png" alt="" width="40px" />
+        </nav>
+      </header>
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>
@@ -18,6 +22,9 @@ function Page() {
         <li>Is maintained by Facebook</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
+      <footer>
+        <small>&copy;2022 Eric development. All rights reserved.</small>
+      </footer>
     </div>
   )
 }
