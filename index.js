@@ -9,8 +9,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 function Header () {
   return (
     <header>
-      <nav>
-        <img src="./logo192.png" alt="" width="40px" />
+      <nav className="nav">
+        <img className="nav-logo" src="./logo192.png" alt=""/>
+        <ul className="nav-items">
+          <li>Docs</li>
+          <li>Tutorial</li>
+          <li>Blog</li>
+        </ul>
       </nav>
     </header>
   )
