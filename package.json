@@ -1,0 +1,25 @@
+{
+  "name": "react_demo_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "build": "parcel build ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knight174/react_demo_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Knight174/react_demo_1/issues"
+  },
+  "homepage": "https://github.com/Knight174/react_demo_1#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
